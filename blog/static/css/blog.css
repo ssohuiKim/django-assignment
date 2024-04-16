@@ -113,6 +113,7 @@ body, ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .bsb-hero-1 h2 {
@@ -126,7 +127,19 @@ body, ul {
     font-weight: normal;
     margin-bottom: 20px;
 }
+.col-md-8 {
+    padding-left: 25px;
+    width: 100%;
+}
+.row {
+    width: 100%;
+}
 
+.post h5 {
+    font-family: "Lobster", cursive;
+    font-size: 3rem;
+    font-weight: bold;
+}
 
 
 
