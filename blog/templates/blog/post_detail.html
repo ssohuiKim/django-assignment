@@ -19,20 +19,23 @@
         <p>{{ post.text|linebreaksbr }}</p>
     </div>
     
-    <h2>Comments</h2>
-    {% for comment in comments %}
-        <div class="comment">
-            <p>Author: {{ comment.author }}</p>
-            <p>{{ comment.text }}</p>
-        </div>
-    {% endfor %}
-
-    <h2>Add a comment</h2>
-    <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Submit</button>
-    </form>
+    <div class="comment-section">
+        <h2>(Comments)</h2>
+        {% for comment in comments %}
+            <div class="comment">
+                <p>Author: {{ comment.author }}</p>
+                <p>{{ comment.text }}</p>
+            </div>
+        {% endfor %}
+    
+        <h2>Add a comment</h2>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
 
 
 {% endblock %}

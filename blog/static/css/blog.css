@@ -76,12 +76,11 @@ body, ul {
     max-width: 100%; /* 가로폭을 화면에 맞춤 */
 }
 
-/* Styling the logo */
+
 .logo h1 {
     margin: 0;
 }
 
-/* Styling the navigation bar */
 .navbar ul {
     list-style-type: none;
 }
@@ -155,4 +154,17 @@ body, ul {
     color: #fff;
     padding: 30px 0; /* 위아래 여백 조정 */
     text-align: center;
+}
+
+.comment-section h2 {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.comment-section .comment p {
+    font-size: 14px;
+}
+
+.comment-section{
+    max-width: 100%;
 }
