@@ -139,9 +139,12 @@ body, ul {
     font-family: "Lobster", cursive;
     font-size: 3rem;
     font-weight: bold;
+    margin-bottom: 15;
 }
 
-
+.post .date {
+    margin-bottom: 15px;
+}
 
 .footer {
     position: fixed;
