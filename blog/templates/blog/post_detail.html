@@ -1,6 +1,11 @@
 {% extends 'blog/base.html' %}
 
 {% block content %}
+    <style>
+        .bsb-hero-1 {
+            display: none;
+        }
+    </style>
     <div class="post">
         {% if post.published_date %}
             <div class="date">
